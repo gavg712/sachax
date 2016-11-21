@@ -70,11 +70,13 @@ friesMeteo <- function(points=table, n, VarCols=4:15, dem=dem, AltD=AltD){
   return(list("Validacion Cruzada" = crossval, "Error Cuadrado Medio" = rmsd))
 }
 
-system.time({
-dem <- raster("datos/dem90.tif")
-table <- read.table("datos/Tmx.csv", sep=",", header = T)
-table <- preparingData(table = table)
-AltD <- round(mean(table$Altitud, na.rm=T)/100)*100
-registerDoMC(detectCores()-1)
-foreach(n=1:12) %dopar% friesMeteo(points=table, n, VarCols=4:15, dem=dem, AltD=AltD)
-})
+
+#Example do not run
+# system.time({
+# dem <- raster("datos/dem90.tif")
+# table <- read.table("datos/Tmx.csv", sep=",", header = T)
+# table <- preparingData(table = table)
+# AltD <- round(mean(table$Altitud, na.rm=T)/100)*100
+# registerDoMC(detectCores()-1)
+# foreach(n=1:12) %dopar% friesMeteo(points=table, n, VarCols=4:15, dem=dem, AltD=AltD)
+# })
