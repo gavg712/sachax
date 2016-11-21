@@ -14,7 +14,7 @@ Función para descargar productos modis desde el Data Pool de LA-DAAC de la NASA
 - **endDate**: Caracter Opcional. La fecha de inicio del período a descargar, en formato estándar "%Y-%m-%d". Por defecto se encuentra definido NULL. Si es NULL, el listado de escenas se seleccionará en función del número de escenas requeridas
 - **numScenes**:      Entero. Corresponde al número de escenas contadas a partir de la fecha especificada en "startDate". Por defecto se  estable 23, que corresponden a un año completo.
 - **outputDir**:      Caracter. Directorio donde se guardarán los ficheros. Si no se especifica tomará el directorio de trabajo usando la función getwd().
-- **credentials**:    Vector de 2 caracteres. Obligatorio. Son el usuario y  contraseña que se ingresaron en el momento de registrarse en https://urs.earthdata.nasa.gov/users/new. Por defecto se especifica un vector de ejemplo, que generará un error porque no existen en el sistema de usuarios de EarthData. El vector debe se debe construir de la siguiente forma: c("username", "pass"))
+- **credentials**:    Vector de 2 caracteres. Obligatorio. Son el usuario y  contraseña que se ingresaron en el momento de registrarse en https://urs.earthdata.nasa.gov/users/new. Por defecto se especifica un vector de ejemplo, que generará un error porque no existen en el sistema de usuarios de EarthData. El vector se debe construir de la siguiente forma: c("username", "pass"))
 
 ***
 
