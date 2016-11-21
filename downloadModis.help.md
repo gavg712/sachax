@@ -1,7 +1,7 @@
 # Ayuda Script downloadModis.R
 
-**Author**: Gabriel Gaona
-**Grupo de trabajo**: Observatorio amazónico de la Universidad Regional Amazónica IKIAM
+**Author**: Gabriel Gaona <br>
+**Grupo de trabajo**: Observatorio amazónico de la Universidad Regional Amazónica IKIAM<br>
 **Direccion**: Km 7 Vía a Muyuna, Tena, Ecuador.
 
 ## Función modisDownload():
