@@ -1,5 +1,5 @@
-# Ayuda Sript downloadModis.R
-***
+# Ayuda Script downloadModis.R
+
 ## Función modisDownload():
 
 Función para descargar productos modis desde el Data Pool de LA-DAAC de la NASA. Requiere un usuario y contraseña registrados y autorizados para [DataPool (lpdaac)](https://urs.earthdata.nasa.gov/users/new)
