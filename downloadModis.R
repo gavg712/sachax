@@ -1,3 +1,6 @@
+# Funciones para descargar y re-proyectar datos de MODIS
+## Autor: Gabriel Gaona. Universidad Regional Amazónica IKIAM
+
 ####### download MODIS data #######
 modisDownload <- function(productName = c("MOD13Q1"),
                           version = 6,

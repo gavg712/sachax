@@ -1,5 +1,9 @@
 # Ayuda Script downloadModis.R
 
+**Author**: Gabriel Gaona
+**Grupo de trabajo**: Observatorio amazónico de la Universidad Regional Amazónica IKIAM
+**Direccion**: Km 7 Vía a Muyuna, Tena, Ecuador.
+
 ## Función modisDownload():
 
 Función para descargar productos modis desde el Data Pool de LA-DAAC de la NASA. Requiere un usuario y contraseña registrados y autorizados para [DataPool (lpdaac)](https://urs.earthdata.nasa.gov/users/new)
