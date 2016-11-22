@@ -28,7 +28,7 @@ Función para reproyectar productos MODIS a otro sistema de referencia de coorde
 
 ### Argumentos:
 
- - **hdf**: Caracter. Nombre del fichero HDF descargado. Si el HDF no se encuentra en el directorio de trabajo, se requiere especificar la ruta completa o relativa. Ej. "/ruta/al/fichero.hdf".
+- **hdf**: Caracter. Nombre del fichero HDF descargado. Si el HDF no se encuentra en el directorio de trabajo, se requiere especificar la ruta completa o relativa. Ej:  "/ruta/al/fichero.hdf".
 - **indexLayers**: Vector de enteros. Corresponde a los índices de las capas contenidas en el fichero hdf. Por defecto se define c(1,12) que corresponden a la capa NDVI y Quality del producto de Indices de Vegetación. 
 - **t_srs**: Caracter. SRC de salida de los ficheros en algún formato que reconozca GDAL, de preferencia en formato PROJ4. Por defecto se especifica el SRC Latitud/Longitud ("+proj=longlat +ellps=WGS84 +datum=WGS84 +no_defs"). Más SRC y su estructura PROJ4 se puede encontrar en http://spatialreference.org.
 - **outputDir**: Caracter. Ruta al directorio de salida de los ficheros tif. Si no se especifica asumirá la ruta de trabajo usando la función getwd().
